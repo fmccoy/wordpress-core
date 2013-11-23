@@ -1,0 +1,19 @@
+{
+	"type": "package",
+	"package": {
+		"name": "fmccoy/wordpress",
+		"type": "wordpress-core",
+		"dist": {
+			"url": "http://wordpress.org/latest.zip",
+			"type": "zip"
+		},
+		"source": {
+			"url": "https://github.com/WordPress/WordPress",
+			"type": "git",
+			"reference": "dev-master"
+		},
+		"require": {
+			"johnpbloch/wordpress-core-installer": "~0.1"
+		}
+	}
+}
