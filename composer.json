@@ -1,6 +1,7 @@
 {
     "name": "fmccoy/wordpress-core",
     "description": "WordPress",
+    "license": "MIT",
     "authors": [
         {
             "name": "Frank McCoy",
@@ -10,7 +11,7 @@
     "repositories": [
         {
             "type": "package",
-            "version": "latest",
+            "version": "3.7",
             "package": {
                 "name": "wordpress/wordpress",
                 "type": "wordpress-core",
@@ -29,7 +30,7 @@
     ],
     "require": {
         "johnpbloch/wordpress-core-installer": "~0.2",
-        "wordpress/wordpress": "*"
+        "wordpress/wordpress": "3.7"
     },
     "extra":{
         "wordpress-install-dir": "wp"
