@@ -29,7 +29,7 @@
     ],
     "require": {
         "johnpbloch/wordpress-core-installer": "~0.2",
-        "wordpress/wordpress": "3.7"
+        "wordpress/wordpress": "dev-master"
     },
     "extra":{
         "wordpress-install-dir": "wp"
