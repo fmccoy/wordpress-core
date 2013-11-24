@@ -22,7 +22,7 @@
                 "source": {
                     "url": "https://github.com/wordpress/wordpress",
                     "type": "git",
-                    "reference": "3.7"
+                    "reference": "tag/3.7"
                 }
             }
         }
