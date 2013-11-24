@@ -1,19 +1,36 @@
 {
-	"type": "package",
-	"package": {
-		"name": "fmccoy/wordpress",
-		"type": "wordpress-core",
-		"dist": {
-			"url": "http://wordpress.org/latest.zip",
-			"type": "zip"
-		},
-		"source": {
-			"url": "https://github.com/WordPress/WordPress",
-			"type": "git",
-			"reference": "dev-master"
-		},
-		"require": {
-			"johnpbloch/wordpress-core-installer": "~0.1"
-		}
-	}
+    "name": "fmccoy/wordpress-core",
+    "description": "WordPress",
+    "authors": [
+        {
+            "name": "Frank McCoy",
+            "email": "fmccoy@thisisamg.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "wordpress/wordpress",
+                "type": "wordpress-core",
+                "version": "3.7.1",
+                "dist": {
+                    "url": "http://wordpress.org/wordpress-3.7.1.zip",
+                    "type": "zip"
+                },
+                "source": {
+                    "url": "git@github.com:WordPress/WordPress",
+                    "type": "git",
+                    "reference": "branch/master"
+                }
+            }
+        }
+    ],
+    "require": {
+        "johnpbloch/wordpress-core-installer": "~0.2",
+        "wordpress/wordpress": "*"
+    },
+    "extra":{
+        "wordpress-install-dir": "wp"
+    }
 }
