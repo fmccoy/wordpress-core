@@ -11,26 +11,20 @@
     "repositories": [
         {
             "type": "package",
-            "version": "dev-master",
             "package": {
                 "name": "wordpress/wordpress",
                 "type": "wordpress-core",
-                "version": "3.7",
+                "version": "3.7.1",
                 "dist": {
-                    "url": "http://wordpress.org/wordpress-3.7.zip",
+                    "url": "http://wordpress.org/wordpress-3.7.1.zip",
                     "type": "zip"
-                },
-                "source": {
-                    "url": "https://github.com/wordpress/wordpress",
-                    "type": "git",
-                    "reference": "tag/3.7"
                 }
             }
         }
     ],
     "require": {
         "johnpbloch/wordpress-core-installer": "~0.2",
-        "wordpress/wordpress": "*"
+        "wordpress/wordpress": "3.7.x"
     },
     "extra":{
         "wordpress-install-dir": "wp"
