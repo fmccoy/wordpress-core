@@ -10,18 +10,19 @@
     "repositories": [
         {
             "type": "package",
+            "version": "latest",
             "package": {
                 "name": "wordpress/wordpress",
                 "type": "wordpress-core",
-                "version": "3.7.1",
+                "version": "3.7",
                 "dist": {
-                    "url": "http://wordpress.org/wordpress-3.7.1.zip",
+                    "url": "http://wordpress.org/wordpress-3.7.zip",
                     "type": "zip"
                 },
                 "source": {
-                    "url": "git@github.com:WordPress/WordPress",
+                    "url": "https://github.com/wordpress/wordpress",
                     "type": "git",
-                    "reference": "branch/master"
+                    "reference": "3.7"
                 }
             }
         }
