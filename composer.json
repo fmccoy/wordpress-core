@@ -1,32 +1,32 @@
 {
-    "name": "fmccoy/wordpress-core",
-    "description": "WordPress",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Frank McCoy",
-            "email": "fmccoy@thisisamg.com"
-        }
-    ],
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "wordpress/wordpress",
-                "type": "wordpress-core",
-                "version": "3.7.1",
-                "dist": {
-                    "url": "http://wordpress.org/wordpress-3.7.1.zip",
-                    "type": "zip"
+        "name": "fmccoy/wp-site",
+        "description": "Use Composer to install new WordPress",
+        "license": "MIT",
+        "type": "wordpress-core",
+        "repositories": [
+                {
+                        "type": "composer",
+                        "url": "http://wpackagist.org"
+                },
+                {
+                        "type": "composer",
+                        "url": "http://fmccoy.info"
                 }
-            }
+        ],
+        "config": {
+                "vendor-dir": "content/vendor"
+        },
+        "require": {
+                "composer/installers": "~1.0",
+                "johnpbloch/wordpress-core-installer": "dev-master",
+                "wordpress/wordpress": "3.7",
+                "fmccoy/anthem-bootstrap": "dev-master"
+        },
+        "extra": {
+                "wordpress-install-dir": "wp",
+                "installer-paths": {
+                        "content/plugins/{$name}/": ["type:wordpress-plugin"],
+                        "content/themes/{$name}/": ["type:wordpress-theme"]
+                }
         }
-    ],
-    "require": {
-        "johnpbloch/wordpress-core-installer": "~0.2",
-        "wordpress/wordpress": "3.7.x"
-    },
-    "extra":{
-        "wordpress-install-dir": "wp"
-    }
 }
