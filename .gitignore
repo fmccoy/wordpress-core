@@ -26,3 +26,6 @@ stage/config.php
 # Sublime
 *.sublime-workspace
 *.sublime-project
+
+# OSX
+.DS_Store
