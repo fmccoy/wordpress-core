@@ -26,6 +26,7 @@
                 "wordpress/wordpress": "3.7",
                 "fmccoy/anthem-bootstrap": "dev-master"
                 "wordpress/wordpress": "3.8",
+                "wpackagist/contact-form-7": "*"
         },
         "extra": {
                 "wordpress-install-dir": "wp",
