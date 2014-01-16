@@ -11,6 +11,10 @@
                 {
                         "type": "composer",
                         "url": "http://satis.fmccoy.info"
+                },
+                {
+                        "type":"composer",
+                        "url":"http://wpackagist.org"
                 }
         ],
         "config": {
