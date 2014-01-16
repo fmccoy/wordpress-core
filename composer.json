@@ -23,7 +23,6 @@
         "require": {
                 "composer/installers": "~1.0",
                 "johnpbloch/wordpress-core-installer": "dev-master",
-                "wordpress/wordpress": "3.7",
                 "wordpress/wordpress": "3.8",
                 "wpackagist/contact-form-7": "*"
         },
