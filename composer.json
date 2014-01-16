@@ -25,6 +25,7 @@
                 "johnpbloch/wordpress-core-installer": "dev-master",
                 "wordpress/wordpress": "3.7",
                 "fmccoy/anthem-bootstrap": "dev-master"
+                "wordpress/wordpress": "3.8",
         },
         "extra": {
                 "wordpress-install-dir": "wp",
